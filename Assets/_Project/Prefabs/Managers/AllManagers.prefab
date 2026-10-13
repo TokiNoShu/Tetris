@@ -1,3 +1,109 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f4cbca62d75c8247c90f3068e87804d9dd12a6c1301d9e61992f3012837a41a1
-size 3379
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8390450829266841938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4515562175832722612}
+  - component: {fileID: 2974017424005005068}
+  - component: {fileID: 8978539798026214379}
+  - component: {fileID: 4063896615422791663}
+  - component: {fileID: 1978450671877295841}
+  - component: {fileID: 5256227508495908503}
+  m_Layer: 0
+  m_Name: AllManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4515562175832722612
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2974017424005005068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c04bec3d7416ab47ac9af2f25fe59cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8978539798026214379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ea01ea90040edb4e86415d2d2000013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4063896615422791663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35b6897fe9f7e5a48b7fab789fe2c78f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseStepDelay: 0.8
+  minStepDelay: 0.05
+  speedFactor: 0.015
+--- !u!114 &1978450671877295841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9f42d0b787a504ea46a1f33042d798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableTetrominos: []
+  blockPrefab: {fileID: 0}
+  spawnPosition: {x: 4, y: 18, z: 0}
+  holdPosition: {x: -7, y: 16, z: 0}
+  nextPosition: {x: 16, y: 16, z: 0}
+  ghostPrefab: {fileID: 8856078320680276961, guid: 9e9ea00c26e1d284bac56159571a8271, type: 3}
+--- !u!114 &5256227508495908503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8390450829266841938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a4b16b1f7f5864da64da2b8d56a7ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialDelay: 0.18
+  repeatRate: 0.05
